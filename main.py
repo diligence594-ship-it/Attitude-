@@ -916,7 +916,7 @@ async def txt_handler(bot: Client, m: Message):
                     else ""
                 )
                 cc = (
-    f"╭━━━━━━━━━━━╮\n🌟{topic_heading}\n╰━━━━━━━━━━━╯\n\n"
+    f"╭━━━━━━━━━━━╮\n🌟 {topic_heading} \n╰━━━━━━━━━━━╯\n\n"
     f"**🎥 VIDEO ID :** {str(count).zfill(3)}.\n\n"
     f"**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n"
     f"**🔖 Batch :** `{b_name}`\n\n"
