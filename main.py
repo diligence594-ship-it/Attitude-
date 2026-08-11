@@ -911,7 +911,7 @@ async def txt_handler(bot: Client, m: Message):
 
             try:
                 topic_heading = (
-                    f"<blockquote>**✨{topic_name.upper()}**</blockquote>"
+                    f"**✨{topic_name.upper()}**"
                     if topic_mode.get(m.from_user.id, False) and topic_name
                     else ""
                 )
