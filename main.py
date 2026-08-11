@@ -911,19 +911,19 @@ async def txt_handler(bot: Client, m: Message):
 
             try:
                 topic_heading = (
-                    f"╭━━━━━━━━━━━╮\n**{topic_name}**\n╰━━━━━━━━━━━╯\n\n"
+                    f"**{topic_name}**"
                     if topic_mode.get(m.from_user.id, False) and topic_name
                     else ""
                 )
                 cc = (
-    f"╭━━━━━━━━━━━╮\n✨ ─ ⋅{topic_heading}⋅ ─\n╰━━━━━━━━━━━╯\n\n"
+    f"╭━━━━━━━━━━━╮\n🌟 >✨ ─ ⋅{topic_heading}⋅ ─\n╰━━━━━━━━━━━╯\n\n"
     f"**🎥 VIDEO ID :** {str(count).zfill(3)}.\n\n"
     f"**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n"
     f"**🔖 Batch :** `{b_name}`\n\n"
     f"**📥 Extracted By : {CR}**\n"
 )
                 cc1 = (
-    f"╭━━━━━━━━━━━╮\n✨ ─ ⋅{topic_heading}⋅ ─\n╰━━━━━━━━━━━╯\n\n"
+    f"╭━━━━━━━━━━━╮\n🌟 >✨ ─ ⋅{topic_heading}⋅ ─\n╰━━━━━━━━━━━╯\n\n"
     f"**📁 FILE ID :** {str(count).zfill(3)}.\n\n"
     f"**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n"
     f"**🔖 Batch :** `{b_name}`\n\n"
