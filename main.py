@@ -917,14 +917,14 @@ async def txt_handler(bot: Client, m: Message):
                 )
                 cc = (
     f"╭━━━━━━━━━━━╮\n🌟 {topic_heading} \n╰━━━━━━━━━━━╯\n\n"
-    f"**🎥 VIDEO ID :** {str(count).zfill(3)}.\n\n"
+    f"**🎥 VIDEO ID :** {str(count).zfill(3)} \n\n"
     f"**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n"
     f"**🔖 Batch :** `{b_name}`\n\n"
     f"**📥 Extracted By : {CR}**\n"
 )
                 cc1 = (
     f"╭━━━━━━━━━━━╮\n🌟 {topic_heading}\n╰━━━━━━━━━━━╯\n\n"
-    f"**📁 FILE ID :** {str(count).zfill(3)}.\n\n"
+    f"**📁 FILE ID :** {str(count).zfill(3)} \n\n"
     f"**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n"
     f"**🔖 Batch :** `{b_name}`\n\n"
     f"**📥 Extracted By : {CR}**\n"
