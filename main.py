@@ -924,7 +924,7 @@ async def txt_handler(bot: Client, m: Message):
 )
                 cc1 = (
     f"{topic_heading}"
-    f"╭━━━━━━━━━━━╮\n**🎥 FILE ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n"
+    f"╭━━━━━━━━━━━╮\n**📁 FILE ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n"
     f"**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n"
     f"**🔖 Batch :** `{b_name}`\n\n"
     f"**📥 Extracted By : {CR}**\n"
