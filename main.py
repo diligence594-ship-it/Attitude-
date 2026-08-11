@@ -487,7 +487,7 @@ async def txt_handler(bot: Client, m: Message):
 
                 parts = [p.strip() for p in full_name.split("|") if p.strip()]
                 if len(parts) >= 3:
-                    topic_name = f"{parts[0]} - {parts[1]}"
+                    topic_name = f"{parts[0]} ─ ⋅ {parts[1]}"
                     name = " - ".join(parts[2:])
                 elif len(parts) == 2:
                     topic_name = parts[0]
@@ -911,19 +911,19 @@ async def txt_handler(bot: Client, m: Message):
 
             try:
                 topic_heading = (
-                    f">**✨⋅ ─{topic_name}─ ⋅**"
+                    f">✨{topic_name}"
                     if topic_mode.get(m.from_user.id, False) and topic_name
                     else ""
                 )
                 cc = (
-    f"╭━━━━━━━━━━━╮\n🌟{topic_heading}\n╰━━━━━━━━━━━╯\n\n"
+    f"╭━━━━━━━━━━━╮\n🌟 {topic_heading}\n╰━━━━━━━━━━━╯\n\n"
     f"**🎥 VIDEO ID :** {str(count).zfill(3)}.\n\n"
     f"**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n"
     f"**🔖 Batch :** `{b_name}`\n\n"
     f"**📥 Extracted By : {CR}**\n"
 )
                 cc1 = (
-    f"╭━━━━━━━━━━━╮\n🌟 >✨ ─ ⋅{topic_heading}⋅ ─\n╰━━━━━━━━━━━╯\n\n"
+    f"╭━━━━━━━━━━━╮\n🌟 {topic_heading}\n╰━━━━━━━━━━━╯\n\n"
     f"**📁 FILE ID :** {str(count).zfill(3)}.\n\n"
     f"**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n"
     f"**🔖 Batch :** `{b_name}`\n\n"
